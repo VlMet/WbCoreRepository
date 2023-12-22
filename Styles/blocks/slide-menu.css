@@ -1,0 +1,31 @@
+.slide-menu {
+  list-style-type: none;
+  display: flex;
+  letter-spacing: -0.2px;
+  /*overflow: scroll;*/
+  overflow-x: scroll;
+}
+
+.slide-menu__item {
+  flex-shrink: 0;
+}
+
+.slide-menu__item button {
+  color: #7e7e82;
+  display: block;
+  padding: 8px 12px;
+  max-height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.slide-menu__item--selected {
+  border: 2px solid #b8ffec;
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 1120px) {
+  .slide-menu {
+    overflow-x: visible;
+    flex-wrap: wrap;
+  }
+}

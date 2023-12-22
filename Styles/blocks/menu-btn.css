@@ -1,0 +1,57 @@
+.menu-btn {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #ff3e79;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  position: relative;
+  vertical-align: bottom;
+}
+.menu-btn--line--l::before, .menu-btn--line--r::after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 32px;
+    position: absolute;
+    border-radius: 1px;
+    background: #EAEAEA;
+    cursor: default;
+    bottom: 4px;
+}
+.menu-btn--line--l::before {
+    left: -20px;
+}
+.menu-btn--line--r::after {
+    display: none;
+    right: -20px;
+}
+
+.menu-btn--repair {
+    background-image: url("../../Images/UI/repair.svg");
+}
+.menu-btn--burger {
+    background-image: url("../../Images/UI/burger.svg");
+}
+.menu-btn--call {
+    background-image: url("../../Images/UI/call.svg");
+}
+.menu-btn--profile {
+    background-image: url("../../Images/UI/profile.svg");
+}
+.menu-btn--chat {
+    background-image: url("../../Images/UI/chat.svg");
+}
+.menu-btn--close {
+    background-image: url("../../Images/UI/close.svg");
+}
+.menu-btn--checkstatus {
+    background-image: url("../../Images/UI/checkstatus.svg");
+}
+
+@media screen and (min-width: 768px) {
+    .menu-btn--line--r::after {
+        display: block;
+    }
+}
