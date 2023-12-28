@@ -29,25 +29,28 @@
 }
 
 .menu-btn--repair {
-    background-image: url("../../Images/UI/repair.svg");
+    background-image: url("../../assets/images/UI/repair.svg");
 }
 .menu-btn--burger {
-    background-image: url("../../Images/UI/burger.svg");
+    background-image: url("../../assets/images/UI/burger.svg");
 }
 .menu-btn--call {
-    background-image: url("../../Images/UI/call.svg");
+    background-image: url("../../assets/images/UI/call.svg");
 }
 .menu-btn--profile {
-    background-image: url("../../Images/UI/profile.svg");
+    background-image: url("../../assets/images/UI/profile.svg");
 }
 .menu-btn--chat {
-    background-image: url("../../Images/UI/chat.svg");
+    background-image: url("../../assets/images/UI/chat.svg");
 }
 .menu-btn--close {
-    background-image: url("../../Images/UI/close.svg");
+    background-image: url("../../assets/images/UI/close.svg");
 }
 .menu-btn--checkstatus {
-    background-image: url("../../Images/UI/checkstatus.svg");
+    background-image: url("../../assets/images/UI/checkstatus.svg");
+}
+.menu-btn--search {
+    background-image: url("../../assets/images/UI/search.svg");
 }
 
 @media screen and (min-width: 768px) {

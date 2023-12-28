@@ -1,0 +1,27 @@
+/*body {
+  height: 200vh;
+  width: 150vw;
+}*/
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 320px;
+  height: 100vh;
+  padding: 25px 24px 32px;
+  background: #fff;
+  box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2),
+    -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__header {
+    display: flex;
+    align-items: center;
+}
+
+.menu__footer {
+    margin-top: auto;
+}
