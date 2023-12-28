@@ -1,5 +1,9 @@
-.main-block {
+.main-block__content {
   padding: 0 16px;
+}
+.main-block__wrap {
+  max-width: 1121px;
+  margin: 0 auto;
 }
 .main-block__top {
   display: flex;
@@ -19,7 +23,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .main-block {
+  .main-block__content {
     padding: 0 24px;
   }
   .main-block__top {
@@ -28,7 +32,7 @@
 }
 
 @media screen and (min-width: 1120px) {
-  .main-block {
+  .main-block__content {
     padding: 0 32px;
   }
   .main-block__top {

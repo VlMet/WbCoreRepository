@@ -1,10 +1,17 @@
-header {
-  height: 88px;
+.header {
   background: #fff;
   border-bottom: 1px solid #d9fff5;
+}
+
+.header__content {
+  height: 88px;
   display: flex;
   align-items: center;
   padding: 24px 16px;
+}
+.header__wrap {
+  max-width: 1121px;
+  margin: 0 auto;
 }
 .header__control {
   display: none;
@@ -16,11 +23,11 @@ header {
   margin-left: 16px;
 }
 .header__logo {
-  margin: 0 auto;
+  margin-left: 16px;
 }
 
 @media screen and (min-width: 768px) {
-  .header {
+  .header__content {
     padding: 24px;
   }
   .header__control {
@@ -37,12 +44,12 @@ header {
     margin-left: 42px;
   }
   .header__logo {
-    margin: 0 auto 0 40px;
+    margin-left: 40px;
   }
 }
 
 @media screen and (min-width: 1120px) {
-    .header {
-        display: none;
-    }
+  .header {
+    display: none;
+  }
 }

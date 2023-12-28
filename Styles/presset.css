@@ -3,7 +3,8 @@
 body {
   /*width: 320px;*/
   /*width: 768px;*/
-  /*width: 1120px;*/
+  /*max-width: 1121px;*/
+  margin: 0 auto;
   font-family: "TT Lakes", sans-serif;
   background: #F8F8F8;
   color: #1b1c21;
@@ -23,3 +24,4 @@ img {
   width: 100%;
   height: auto;
 }
+

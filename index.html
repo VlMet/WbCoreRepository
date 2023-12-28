@@ -3,109 +3,120 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Cache-Control" content="no-cache" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Document</title>
+    <title>CPS - ремонт техники</title>
     <link rel="stylesheet" href="Styles/main.css" />
   </head>
   <body>
     <header class="header">
-      <button
-        class="menu-btn menu-btn--burger menu-btn--line--r"
-        aria-label="Открыть меню"
-      ></button>
+      <div class="header__wrap">
+        <div class="header__content">
+          <button
+            class="menu-btn menu-btn--burger menu-btn--line--r"
+            aria-label="Открыть меню"
+          ></button>
 
-      <a class="header__logo" href="#" aria-label="На главную страницу">
-        <img
-          class="line-right"
-          src="./Images/Media/Logo.svg"
-          alt="Логотип компании"
-        />
-      </a>
+          <a class="header__logo" href="#" aria-label="На главную страницу">
+            <img
+              class="line-right"
+              src="./assets/images/Media/Logo.svg"
+              alt="Логотип компании"
+            />
+          </a>
 
-      <div class="header__control">
-        <button class="menu-btn menu-btn--call" aria-label="Звонок"></button
-        ><!----><button
-          class="menu-btn menu-btn--chat"
-          aria-label="Чат"
-        ></button
-        ><!----><button
-          class="menu-btn menu-btn--profile"
-          aria-label="Профиль"
-        ></button>
-      </div>
-      <div class="header__contact">
-        <button
-          class="menu-btn menu-btn--repair menu-btn--line--l"
-          aria-label="Оставить заявку"
-        ></button
-        ><!--
+          <div class="header__control">
+            <button class="menu-btn menu-btn--call" aria-label="Звонок"></button
+            ><!----><button
+              class="menu-btn menu-btn--chat"
+              aria-label="Чат"
+            ></button
+            ><!----><button
+              class="menu-btn menu-btn--profile"
+              aria-label="Профиль"
+            ></button>
+          </div>
+          <div class="header__contact">
+            <button
+              class="menu-btn menu-btn--repair menu-btn--line--l"
+              aria-label="Оставить заявку"
+            ></button
+            ><!--
             --><button
-          class="menu-btn menu-btn--checkstatus"
-          aria-label="Статус ремонта"
-        ></button>
+              class="menu-btn menu-btn--checkstatus"
+              aria-label="Статус ремонта"
+            ></button>
+          </div>
+        </div>
       </div>
     </header>
 
     <main class="main-block">
-      <div class="main-block__top">
-        <h2 class="title title--line">Услуги и сервисы</h2>
-        <div class="main-block__contact">
-          <span class="main-block__desc" aria-hidden="true">Оставить заявку</span>
-          <button
-            class="menu-btn menu-btn--repair"
-            aria-label="Оставить заявку"
-          ></button>
-          <span class="main-block__desc" aria-hidden="true">Статус ремонта</span>
-          <button
-            class="menu-btn menu-btn--checkstatus"
-            aria-label="Статус ремонта"
-          ></button>
+      <div class="main-block__wrap">
+        <div class="main-block__content">
+          <div class="main-block__top">
+            <h2 class="title title--line">Услуги и сервисы</h2>
+            <div class="main-block__contact">
+              <span class="main-block__desc" aria-hidden="true"
+                >Оставить заявку</span
+              >
+              <button
+                class="menu-btn menu-btn--repair"
+                aria-label="Оставить заявку"
+              ></button>
+              <span class="main-block__desc" aria-hidden="true"
+                >Статус ремонта</span
+              >
+              <button
+                class="menu-btn menu-btn--checkstatus"
+                aria-label="Статус ремонта"
+              ></button>
+            </div>
+          </div>
+
+          <ul class="slide-menu">
+            <li class="slide-menu__item slide-menu__item--selected">
+              <a href="#">Ремонтируемые бренды</a>
+            </li>
+            <li class="slide-menu__item">
+              <a href="#">Ремонтируемые устройства</a>
+            </li>
+            <li class="slide-menu__item">
+              <a href="#">Цены на услуги</a>
+            </li>
+            <li class="slide-menu__item">
+              <a href="#">Адреса сервисных центров</a>
+            </li>
+            <li class="slide-menu__item">
+              <a href="#">Специальные цены</a>
+            </li>
+            <li class="slide-menu__item">
+              <a href="#">Отзывы</a>
+            </li>
+          </ul>
+
+          <section class="info-block">
+            <article>
+              <p class="info-block__text">
+                Мы являемся авторизованным сервисным центром по ремонту техники
+                Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+                официальной гарантией производителя.
+                <br /><br />
+                Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                партнера, что подтверждает большое количество постоянных
+                клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
+                и, в свою очередь, советуют нас родным и близким.
+              </p>
+              <a class="info-block__link read-go" href="#">Читать далее</a>
+            </article>
+            <div class="info-block__image">
+              <img
+                src="./assets/images/Media/picturemain.png"
+                alt="CPS - информация"
+              />
+            </div>
+          </section>
         </div>
       </div>
-
-      <ul class="slide-menu">
-        <li class="slide-menu__item slide-menu__item--selected">
-          <button>Ремонтируемые устройства</button>
-        </li>
-        <li class="slide-menu__item">
-          <button>Дополнительные услуги</button>
-        </li>
-        <li class="slide-menu__item">
-          <button>Ремонтируемые бренды</button>
-        </li>
-        <li class="slide-menu__item">
-          <button>Цены на услуги</button>
-        </li>
-        <li class="slide-menu__item">
-          <button>Адреса сервисных центров</button>
-        </li>
-        <li class="slide-menu__item">
-          <button>Специальные цены</button>
-        </li>
-        <li class="slide-menu__item">
-          <button>Отзывы</button>
-        </li>
-      </ul>
-
-      <section class="info-block">
-        <article>
-          <p class="info-block__text">
-            Мы являемся авторизованным сервисным центром по ремонту техники
-            Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
-            официальной гарантией производителя.
-            <br /><br />
-            Мы успешно работаем с 1992 года и заслужили репутацию надежного
-            партнера, что подтверждает большое количество постоянных клиентов.
-            Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
-            очередь, советуют нас родным и близким.
-          </p>
-          <a class="info-block__link read-go" href="#">Читать далее</a>
-        </article>
-        <div class="info-block__image">
-          <img src="./Images/Media/picturemain.png" alt="CPS - информация" />
-        </div>
-      </section>
     </main>
   </body>
 </html>

@@ -10,15 +10,17 @@
   flex-shrink: 0;
 }
 
-.slide-menu__item button {
+.slide-menu__item * {
   color: #7e7e82;
-  display: block;
-  padding: 8px 12px;
-  max-height: 40px;
+  line-height: 24px;
+  font-weight: 500; 
+  display: inline-block;
+  height: 40px;
+  padding: 8px 1em;
   font-size: 16px;
   cursor: pointer;
 }
-.slide-menu__item--selected {
+.slide-menu__item--selected *{
   border: 2px solid #b8ffec;
   border-radius: 6px;
 }
