@@ -8,6 +8,7 @@
   cursor: pointer;
   position: relative;
   vertical-align: bottom;
+  transition: 0.1s;
 }
 .menu-btn--line--l::before, .menu-btn--line--r::after{
     content: "";
@@ -52,6 +53,14 @@
 .menu-btn--search {
     background-image: url("../../assets/images/UI/search.svg");
 }
+
+.menu-btn:hover, .menu-btn:focus {
+    opacity: 0.7;
+}
+.menu-btn:active {
+    transform: translateY(2px);
+}
+
 
 @media screen and (min-width: 768px) {
     .menu-btn--line--r::after {
