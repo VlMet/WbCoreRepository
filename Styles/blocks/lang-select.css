@@ -1,0 +1,13 @@
+.lang-select {
+    display: flex;
+}
+.lang-select__item {
+    margin-right: 7px;
+}
+
+.lang-select__item input {
+    display: none;
+}
+.lang-select__item--selected {
+    color: #7E7E82;
+}
